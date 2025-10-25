@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load an image as grayscale
-image = cv2.imread('image1.jpg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('input_image.jpg', cv2.IMREAD_GRAYSCALE)
 # Define Sobel kernels for edge detection
 # Horizontal edge detection
 horizontal_kernel = np.array([[-1, 0, 1],[-2, 0, 2],[-1, 0, 1]], dtype=np.float32)
